@@ -11,6 +11,8 @@ public class StudyHard {
 run : shift + F10
 복사 : ctrl + D ( 드래그 한 부분 복사)
 파일 or 디렉토리 새로고침 : Alt + r  ( 단축키 이용해서 git bash 로 add 한 다음에 인텔리제이에서 초록색으로 바뀌나 확인해보기)
+클래스 만들기 : Esc → Alt + 1 → Alt Insert → -> -> 엔터
+소스코드간에 이동 단축키 :Ctrl + Tab
 
  */
 
