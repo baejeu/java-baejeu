@@ -16,8 +16,7 @@ public class RemainderSum {
             if (number<0){
                 break;
             }
-
-             */
+            */
         }
         System.out.println(sum);
 
