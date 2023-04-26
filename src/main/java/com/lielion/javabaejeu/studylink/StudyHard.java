@@ -28,7 +28,7 @@ https://gitlab.com/easyspubjava/javacoursework/-/tree/master/ 전체적인 자�
 /*
 멋쟁이 사자 교육 링크
 https://file.notion.so/f/s/f677e29e-bed1-4005-b08e-528979c5fb4b/%EA%B9%80%EA%B2%BD%EB%A1%9D%EC%9D%98_100Day_%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94.pdf?id=6c682b4d-6e92-4528-a3a7-beffa8ebfa5b&table=block&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&expirationTimestamp=1682045120510&signature=VErL0nEuqKcRcAbddD1gz9vSyE2iQIuzeqNvWINWO_o&downloadName=%EA%B9%80%EA%B2%BD%EB%A1%9D%EC%9D%98+100Day+%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94.pdf
-   위에링크는 자바 교재
+위에링크는 자바 교재
 http://ec2-3-38-111-117.ap-northeast-2.compute.amazonaws.com:8083/courses/2/students/weeks/1/days/4 Course Student
 
 https://github.com/ 나의 깃 허브

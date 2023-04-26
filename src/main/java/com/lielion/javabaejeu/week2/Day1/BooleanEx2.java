@@ -1,4 +1,4 @@
-package com.lielion.javabaejeu.week2;
+package com.lielion.javabaejeu.week2.Day1;
 
 public class BooleanEx2 {
     static int age = 37;

@@ -10,9 +10,11 @@ import java.util.*;
 public class CodeUp1018 {
     public static void main(String[] args) {
 
-        String  time ; // 입력받을 시간
         Scanner sc = new Scanner(System.in);
-        System.out.println(sc.next());
+        String input [] = sc.next().split("[:]");
+        int inputHour  = Integer.parseInt(input[0]); // 시간
+        int inputMin  = Integer.parseInt(input[1]); // 분
+        System.out.println(inputHour + ":" + inputMin);
 
     }
 }

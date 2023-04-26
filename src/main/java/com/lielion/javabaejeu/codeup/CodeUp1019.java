@@ -11,9 +11,12 @@ import java.util.Scanner;
 public class CodeUp1019 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String time;
-        time = sc.next();
-        System.out.println(time);
+        String input[]= sc.next().split("\\.");
+        int year = Integer.parseInt(input[0]);
+        int month = Integer.parseInt(input[1]);
+        int day = Integer.parseInt(input[2]);
+
+        System.out.printf("%4d.%02d.%02d", year, month, day); // %03d 는 3칸 출력인데 출력x시 0으로 채운다.
 
     }
 }
