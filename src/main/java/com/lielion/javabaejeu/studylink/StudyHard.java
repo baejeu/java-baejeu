@@ -14,7 +14,7 @@ run : shift + F10
 클래스 만들기 : Esc → Alt + 1 → Alt Insert → -> -> 엔터
 소스코드간에 이동 단축키 :Ctrl + Tab
 
- */
+*/
 
 /*
 Link 여러가지 공부 링크
@@ -35,13 +35,13 @@ https://github.com/ 나의 깃 허브
 https://likelion.notion.site/KDT-5-fcf1822c17a14d1b8d10a13e7d8ab54e 멋사 교육 홈페이지
 https://codeup.kr/problemset.php codeup
 */
+
+
+
 /*
 https://www.youtube.com/@MasterNKS/playlists 남궁성의 정석 코딩 복습하기
-
 https://docs.google.com/document/d/1LxGUlnFPmuorJsFKVddHRGF4urIRJ1K2GnquI1ZT8qs/edit#heading=h.54qoemvbi7j0 1주차 1일 수업 로그
 https://docs.google.com/document/d/1GGZBYLMJfM0tBxc204Wkg9PsEV526Fl2QmJ5iZtzG_o/edit#heading=h.54qoemvbi7j0 1주차 4일 수업 로그
-
 https://docs.google.com/document/d/1wCmxqr4RQ2O6MIsOvKtd1whhzKPf0g5O1YdZtGYT9lA/edit 월말평가 초안 (x) 시험 보면 x->0 로 바꾸기
 https://gyun-gyunni.tistory.com/64 균균2 블로그
-
- */
+*/
