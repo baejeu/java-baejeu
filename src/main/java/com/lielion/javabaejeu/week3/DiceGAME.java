@@ -20,7 +20,7 @@ public class DiceGAME {
         public static int solution(int a, int b, int c) {
             int answer = 0;
 
-            if ( a != b && b !=c ){
+            if ( a != b && b !=c && a != c){
                 answer = a+b+c;
             }
             else if (( a==b && b !=c )||(b==c && a != b)||(a==c && a!=b)){
