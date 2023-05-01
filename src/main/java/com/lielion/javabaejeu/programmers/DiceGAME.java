@@ -1,4 +1,4 @@
-package com.lielion.javabaejeu.week3;
+package com.lielion.javabaejeu.programmers;
 
 import java.util.Scanner;
 

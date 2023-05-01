@@ -1,4 +1,4 @@
-package com.lielion.javabaejeu.week2.Day5;
+package com.lielion.javabaejeu.programmers;
 
 import java.util.Scanner;
 public class Collatz {
