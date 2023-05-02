@@ -4,33 +4,35 @@ import java.util.*;
 
 public class Queries3 {
     public static void main(String[] args) {
-        int [] arr = {0,1,2,3,4};
-        int [][] queries = {{0,3}, {1,2}, {1,4}};
-        Solution.solution(arr, queries);
-        System.out.println(Arrays.toString(arr));
-
-        int test = queries.length;
-       // System.out.println(test);
 
     }
-    // [0, 1, 2, 3, 4]	[[0, 3],[1, 2],[1, 4]]	[3, 4, 1, 0, 2]
+
     class Solution {
-        public static int[] solution(int[] arr, int[][] queries) {
+        public static int[] solution (int[] arr, int[][]queries ){
 
-            int a =0;
-            int b =0;
-            int temp;
-
+            ArrayList<Integer>arrayList = new ArrayList<>(); // ArrayList 선언  배열,리스트,ArrayList ??
+            int[] answer = new int[queries.length];
+            int s = 0;
+            int e = 0;
+            int k = 0;
             for (int i = 0; i < queries.length ; i++) {
-                    int j= 0;
-                    a = queries[i][j];
-                    b = queries[i][j+1];
-                    temp = arr[a];
-                    arr[a] = arr[b];
-                    arr[b] = temp;
+                s = queries[i][0];
+                e = queries[i][1];
+                k = queries[i][2];
 
+                for (int j = s; j <= e; j++) {
+                    if (arr[j] > k) {
+                        arrayList.add(arr[j]);
+                    }
+                }
+                if (arrayList.isEmpty()) {
+                    answer[i] = -1;
+                } else {
+                    answer[i] = Collections.min(arrayList);
+                    arrayList.clear(); // 청소
+                }
             }
-            return arr;
+            return answer;
         }
     }
 }
