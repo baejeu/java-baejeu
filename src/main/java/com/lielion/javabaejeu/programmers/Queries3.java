@@ -2,7 +2,7 @@ package com.lielion.javabaejeu.programmers;
 
 import java.util.*;
 
-public class Queries {
+public class Queries3 {
     public static void main(String[] args) {
         int [] arr = {0,1,2,3,4};
         int [][] queries = {{0,3}, {1,2}, {1,4}};

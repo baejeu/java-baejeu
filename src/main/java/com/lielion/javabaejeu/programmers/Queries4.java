@@ -4,13 +4,10 @@ import java.util.Arrays;
 
 public class Queries4 {
     public static void main(String[] args) {
-        System.out.println(0%1);
 
     }
-
     class Solution {
         public int[] solution(int[] arr, int[][] queries) {
-
             int[] compare = new int[arr.length];
             compare = arr;
             int[] answer =  new int[arr.length];
@@ -28,8 +25,6 @@ public class Queries4 {
             return answer;
         }
     }
-
-
 }
 /*
 
