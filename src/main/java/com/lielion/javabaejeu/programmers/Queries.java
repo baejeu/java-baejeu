@@ -12,8 +12,6 @@ public class Queries {
         int test = queries.length;
        // System.out.println(test);
 
-
-
     }
     // [0, 1, 2, 3, 4]	[[0, 3],[1, 2],[1, 4]]	[3, 4, 1, 0, 2]
     class Solution {
