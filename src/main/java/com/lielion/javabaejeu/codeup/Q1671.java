@@ -22,8 +22,10 @@ public class Q1671 {
             int human = sc.nextInt();
             int computer = sc.nextInt();
             String answer = RockPaperScissors(human, computer);
-            if (answer == "win") break;
-            System.out.println("you win");
+            if (answer == "win") {
+                System.out.println("you win");
+                break;
+            }
         }
         while(true);
 
