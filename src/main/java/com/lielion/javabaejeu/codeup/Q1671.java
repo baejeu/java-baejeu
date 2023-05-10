@@ -14,21 +14,29 @@ win, tie, lose를 출력한다. 결과는 광현이 중심으로 낸다.
  */
 
 import java.util.*;
+
 public class Q1671 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         do {
             int human = sc.nextInt();
-            int computer = sc.nextInt();
+            int computer = makeRndom();
+            System.out.println("computer="+ computer);
             String answer = RockPaperScissors(human, computer);
             if (answer == "win") {
-                System.out.println("you win");
+                System.out.println("you win"); // 이기면 you win 출력 하도록 수정
                 break;
             }
         }
         while(true);
 
+    }
+
+    public static int makeRndom(){ // AI 추가..
+        int num = 0;
+        num  = (int)Math.random()*3;
+        return num;
     }
 
     public static String RockPaperScissors (int human , int computer){

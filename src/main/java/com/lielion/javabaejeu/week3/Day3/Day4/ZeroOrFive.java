@@ -12,7 +12,7 @@ public class ZeroOrFive {
         int s = sc.nextInt();
         int r = sc.nextInt();
 
-        for (int i = s; i < r; i++) {
+        for (int i = s; i <= r; i++) {
             if(Solution.isZeroOrFive(i) == true){
                 answer.add(i);
             }
