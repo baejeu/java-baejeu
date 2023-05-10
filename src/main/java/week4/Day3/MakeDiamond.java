@@ -1,5 +1,5 @@
 package week4.Day3;
-
+// 다이아 만들기
 import java.util.*;
 public class MakeDiamond {
     String blank = " ";

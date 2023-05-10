@@ -1,7 +1,7 @@
 package week4.Day3;
 
 import java.util.*;
-// 마름모
+// 마름모 만들기
 public class MakeRhombus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
